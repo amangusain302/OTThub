@@ -1,0 +1,86 @@
+/* .mainSeriesContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10%;
+} */
+
+.playlistContainer {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* padding-left: 8%; */
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 5%;
+}
+
+.cardContainer {
+    height: auto;
+    width: 25%;
+    background-color: rgba(128, 128, 128, 0.265);
+    color: rgb(0, 0, 0);
+    margin: 15px 20px;
+    /* border: 2px solid black; */
+    /* left: 10%;
+    top: 10%; */
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(139, 139, 139, 0.333);
+    border-radius: 10px;
+    cursor: pointer;
+    /* padding: 1rem 2rem; */
+}
+
+.cardContainer:hover {
+    /* box-shadow: 1px 1px 20px rgba(106, 106, 106, 0.372); */
+    /* position: absolute; */
+    margin-top: 5px;
+    transition: margin-top 300ms ease;
+}
+
+.cardCategory {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.475);
+    font-size: 20px;
+}
+
+.cardImg {
+    height: 30vh;
+    width: 100%;
+}
+
+.cardInfo {
+    margin-left: 5%;
+    padding: 1.2rem .7rem;
+    text-transform: capitalize;
+}
+
+.cardButton {
+    border: none;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.516);
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+.headerContainer {
+    height: 20vh;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgba(35, 35, 35, 0.356);
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.265);
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 20px;
+}
